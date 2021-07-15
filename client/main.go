@@ -80,4 +80,5 @@ func main() {
 		cancel()
 		span.Finish()
 	}
+	time.Sleep(10 * time.Second)
 }
